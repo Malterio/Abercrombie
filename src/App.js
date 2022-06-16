@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+//import {Link, Route, Routes} from "react-router-dom"
+//import Man from './components/Man'
+import Field from './components/field/Field'
+import Navbar from './components/navbar/Navbar'
+import Hover from './components/Hover'
+import ChangeColor from './components/ChageColor';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navbar/>
       </header>
+        <Field/>
+        <Hover/>
+        <ChangeColor/>
+      <body>
+      <h2>Soy el body</h2>
+      </body>
     </div>
   );
 }
