@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import Man from './Man'
 
 
 function Hover() {
   const [isShown, setIsShown] = useState(false);
 
   return (
-    <div className="App">
+    <div >
       <button
         onMouseEnter={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)}>

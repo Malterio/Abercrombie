@@ -1,0 +1,58 @@
+a {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none!important;
+    text-transform: none;
+}
+
+.header-logo {
+    font-family: Garamond Bold;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.Navbar {
+    background-color: red;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1568px;
+    position: relative;    
+    justify-content: flex-start;
+}
+
+ul.sarasa,
+h2.sarasa {
+    background-color: green;
+    z-index: 5;
+    position: absolute;
+    top: 55px;
+    display :flex;
+    flex-direction: column;
+}
+
+.App-header-clothes{
+    font-family: DS Trade Gothic,Trade Gothic,sans-serif;
+    font-weight: bold;  
+    font-size: 25px;
+    display: flex;
+    width: 700px;
+    
+  }
+
+  .category {
+    background-color: blanchedalmond;
+    margin-left: 15px;
+  }
+
+  .new-page{
+    background-color: blue;
+    justify-content: center;
+    top: 45px;
+    right: 1300px;
+  }

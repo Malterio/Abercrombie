@@ -13,10 +13,11 @@ function App() {
       <header className="App-header">
         <Navbar/>
       </header>
+        
+      <body>
         <Field/>
         <Hover/>
         <ChangeColor/>
-      <body>
       <h2>Soy el body</h2>
       </body>
     </div>

@@ -1,9 +1,13 @@
 import React from 'react'
+import Menu from './Menu'
 
 function Woman() {
+
+    let generos = ["Recién llegados", "Prendas Superiores", "Prendas Inferiores"]
+  
     return (
         <div >
-            <h2 className="sarasa"> Soy el componente Woman </h2>
+            <Menu generos={generos}/>
         </div>
     );
 }

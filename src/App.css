@@ -7,30 +7,8 @@
   border-color: black !important;
 
 }
-.App-header-logo {
-  font-family: Garamond Bold;
-  font-weight: bold;
-  
-}
-.App-header-clothes{
-  font-family: DS Trade Gothic,Trade Gothic,sans-serif;
-  font-weight: bold;  
-  font-size: 25px;
-  display: flex;
-  
-}
 
-.Navbar{
-  flex-direction: row;
 
-  width: 100%;
-  display: flex;
-}
-
-h2.sarasa{
- 
-  font-size: 25px;
-}
 
 
 .App-header {

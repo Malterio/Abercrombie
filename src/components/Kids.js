@@ -1,7 +1,7 @@
 import React  from 'react'
 import Menu from './Menu'
 
-function Man() {
+function Kids() {
 
     let generos = ["Recién llegados", "Prendas Superiores", "Prendas Inferiores"]
   
@@ -11,4 +11,4 @@ function Man() {
         </div>
     );
 }
-export default Man;
+export default Kids;
